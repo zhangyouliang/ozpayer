@@ -1,0 +1,29 @@
+{
+  "name": "ozpayer/payer",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/z1577121881/ozpayer"
+  },
+  "authors": [
+    {
+      "name": "zyl",
+      "email": "2322775958@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "OZPayer\\": "./"
+    },
+    "files": [
+      "Support/helper.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "process-timeout": 1800
+  }
+}
